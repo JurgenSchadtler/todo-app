@@ -1,0 +1,79 @@
+.list-container {
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+.action-container {
+  padding: 1rem;
+}
+
+.action-container button {
+  border-radius: 0.5rem;
+  border-style: none;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: rgb(25, 132, 82);
+  color: white;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between; /* Distributes space between items */
+  align-items: center;
+  height: 2rem;
+  background-color: white;
+  border-radius: 1rem;
+  color: black;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.flex-title {
+  display: flex;
+}
+
+.item-title {
+  margin-left: 1rem;
+}
+
+.cancel {
+  color: white;
+  background-color: rgb(184, 3, 3);
+}
+
+.update {
+  background-color: #007bff;
+}
+
+.completed {
+  color: rgb(156, 156, 156);
+  text-decoration: line-through;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.complete-task {
+  margin-right: 1rem;
+}
+
+.item-status {
+  text-align: end;
+}
+
+.button-container {
+  display: flex;
+  align-items: end;
+  text-align: end;
+  gap: 10px; /* Space between buttons */
+}
+
+.button-container button {
+  padding: 5px 10px;
+  /* Change as needed */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

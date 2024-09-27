@@ -1,0 +1,52 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  color: black;
+}
+
+.modal input {
+  border-radius: 2rem;
+  padding: 0.5rem;
+  border-style: none;
+  background-color: rgb(208, 208, 208);
+  width: 90%;
+}
+
+.modal-actions button {
+  cursor: pointer;
+  border-radius: 1rem;
+  border-style: none;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+.add {
+  background-color: rgb(25, 132, 82);
+  color: white;
+}
+
+.cancel {
+  color: white;
+  background-color: rgb(184, 3, 3);
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
